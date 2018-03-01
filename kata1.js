@@ -1,4 +1,4 @@
-var repeatNumbers = function(data) 
+var repeatNumbers = function(data)
 
 {
 
@@ -16,28 +16,28 @@ var concat = [].concat.apply([],data);
 		{
 
 			str1+=concat[0];
-	
+
 		}
 
-	
-	
+
+
 	if (concat[2] != undefined)
 
 	{
 
 	console.log(str1 + ",");
 
-	
+
 	var str2 = "";
 
 	for (var i2 = 1; i2 <= concat[3]; i2++)
 
 		{
 
-			str2+=concat[2];			
+			str2+=concat[2];
 
 		}
-	
+
 	}
 
 
@@ -49,7 +49,7 @@ var concat = [].concat.apply([],data);
 		}
 
 
-	
+
 	if (concat[4] != undefined)
 
 	{
@@ -67,12 +67,12 @@ var concat = [].concat.apply([],data);
 		}
 
 	console.log(str3 + "\n");
-	
+
 	}
 
-	
+
 	else
-	
+
 		{
 			console.log(str2);
 			return 0;
@@ -81,6 +81,6 @@ var concat = [].concat.apply([],data);
 }
 
 
-repeatNumbers([[10, 4]]);
+repeatNumbers([[1, 10]]);
 repeatNumbers([[1, 2], [2, 3]]);
 repeatNumbers([[10, 4], [34, 6], [92, 2]]);
